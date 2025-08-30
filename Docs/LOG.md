@@ -27,5 +27,6 @@ This document records the progress of building a self-hosted cloud and cybersecu
 - Bridged network via `vmbr0`  
 - Installed Ubuntu Server with OpenSSH enabled.  
 - Applied initial hardening:
-- Updated and patched system with `apt update && apt upgrade`.  
-- Installed and configured **UFW firewall**, allowing only ports `22, 80, 443`.  
+- Installed and configured **UFW firewall**, allowing only ports `22, 80, 443`.
+- Installed Docker Engine (v28.3.3) and Docker Compose (v2.39.1) from Docker’s official repository.
+- VM is ready to host containerized services.
