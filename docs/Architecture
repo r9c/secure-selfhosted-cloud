@@ -5,9 +5,9 @@ This document shows the current and planned architecture of the self hosted clou
 ---
 
 ## Current Setup
-- **Hardware:** Custom built server (Intel i7-8700, 32GB DDR4, 238GB SSD, 931GB HDD) (temporary, further upgrades soon).
+- **Hardware:** Custom built server (Intel i7-8700, 32GB DDR4, 238GB SSD, 931GB HDD) *Initial build — further upgrades planned.*
 - **Hypervisor:** Proxmox VE 9.0 on bare metal.
-- **Networking:** Ethernet via TP-Link Wi-Fi extender in bridge mode (once again, temporary).
+- **Networking:** Ethernet via TP-Link Wi-Fi extender in bridge mode (once again, temporary). *Initial setup — will migrate to complete wired connection when possible.*
 - **VMs (so far):**
   - `cloud-ubuntu` (Ubuntu Server 24.04) with UFW firewall enabled.
 
