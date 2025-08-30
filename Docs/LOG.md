@@ -30,3 +30,12 @@ This document records the progress of building a self-hosted cloud and cybersecu
 - Installed and configured **UFW firewall**, allowing only ports `22, 80, 443`.
 - Installed Docker Engine (v28.3.3) and Docker Compose (v2.39.1) from Docker’s official repository.
 - VM is ready to host containerized services.
+
+## Docker Setup & First Service
+- Installed **Docker Engine** and **Docker Compose** on `cloud-ubuntu`.  
+- Created directory structure under `/opt/stacks/` to organize Docker services.  
+- Deployed **Uptime Kuma** (self-hosted monitoring tool) using Docker Compose:  
+- Stack defined in `docker-compose.yml` (added to repo under `Stacks/uptime-kuma/`).  
+- Accessed Uptime Kuma dashboard at `http://<server-ip>:3001`.  
+- Configured first monitor in Uptime Kuma to track **Proxmox Web UI** availability.  
+- Confirmed that container-based service deployment is working successfully.  
